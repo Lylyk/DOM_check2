@@ -1,0 +1,31 @@
+
+/* Style for the container */
+.container {
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    margin-top: 50px; /* Top margin for spacing */
+}
+
+/* Style for the color box */
+#color-box {
+    width: 400px; /* Fixed width */
+    height: 400px; /* Fixed height */
+    background-color: #a0d9ff; /* Default background color (blue) */
+    margin: 20px 0; /* Margin for spacing above and below the box */
+}
+
+/* Style for the button */
+#change-color-btn {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    color: white; /* Text color */
+    background-color: #2980b9; /* Button background color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#change-color-btn:hover {
+    background-color: #1c6691; /* Darker color on hover */
+}
